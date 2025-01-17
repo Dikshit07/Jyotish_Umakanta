@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umakanta Upadhya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+   
+</style>
+
+<body>
+    <div class="sucessprompt" th:if="${sucess}">
+        <p>Message sent successfully</p>
+    </div>
+
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left">ॐ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभा निर्विघ्नं कुरु मे देव
+            सर्वकार्येषु सर्वदा॥ शुक्लांबरधरं विष्णुं शशिवर्णं चतुर्भुजं प्रसन्नवदनं ध्यायेत् सर्वविघ्नोपशान्तये॥
+        </marquee>
+    </div>
+    <header>
+        <nav class="nav-bar">
+
+            <a id="logo" href="#">उमाकान्त उपाध्याय</a>
+            <a href="#contactme">जानकारी</a>
+            <a href="#service_heading">सेवाहरू</a>
+            <a href="#contactme">सम्पर्क</a>
+        </nav>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="info">
+                <span>ज्योतिषी पा.श्री </span> <br><span class="Uma">उमाकान्त </span>शर्मा</span>
+                <br>
+                <span>
+
+                </span>
+                <br>
+
+
+
+                <div class="socialmedia">
+                    <a href="https://www.facebook.com/profile.php?id=100006291015502">
+                        <span class="fa-stack ">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.instagram.com/dikshitsapkota99/">
+                        <span class="fa-stack ">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="Pimage">
+                <img th:src="@{images/mama-removebg-preview.png}" alt="umakanta sharma">
+            </div>
+
+        </div>
+
+        <div class="service">
+            <h1 id="service_heading">सेवाहरू</h1>
+
+            <div class="services">
+                <div class="box">
+
+                    <div class="card">
+                        <div class="front" id="uiux">
+                            <img class="image-fit" th:src="@{/images/Hindu_Wedding.webp}" alt="">
+                        </div>
+                        <div class="back">हाम्रो विवाह सेवाहरू अंकज्योतिष, राशिफल विश्लेषण, गुण मिलन, दोश शान्ति,
+                            औपचारिक
+                            उपायहरू, र विवाहको अनुयायी ज्योतिषीय तकनीकहरूलाई आधारमा हुन्छन्।</div>
+                    </div>
+                    <div class="tittle">बिवाहा</div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="front" id="web">
+                            <img class="image-fit" th:src="@{/images/bratabanda.webp}" alt="">
+                        </div>
+                        <div class="back">हाम्रो विशेषता र अनुभवबाट, हामी ब्रतबन्ध सम्बन्धी ज्योतिषीय सल्लाह र सेवाहरू
+                            प्रदान गर्दछौं जसले ब्रतबन्धका समयमा
+                            अनुसार युवाहरूलाई अनुकूल ग्रह समायोजन, समृद्धि, र समान्यतालाई बढाउँछ।</div>
+                    </div>
+                    <div class="tittle">बर्तवन्ध</div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="front" id="android">
+                            <img class="image-fit" th:src="@{/images/kundali.webp}" alt="">
+                        </div>
+                        <div class="back">हाम्रो जन्मकुण्डली सेवाहरूले तपाईंको व्यक्तिगतता, क्षमता, विशेषताहरू, र
+                            सम्भावनाहरूको अध्ययन गरी,
+                            तपाईंलाई आगामी कार्यहरूमा सफलता प्राप्त गर्नको लागि सल्लाह दिन्छौं।</div>
+                    </div>
+                    <div class="tittle">चिना टिप्पन लेख्ने</div>
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <div class="front" id="desk">
+                            <img class="image-fit" th:src="@{/images/jyotishSewa.jpg}" alt="">
+                        </div>
+                        <div class="back">Transforming ideas into powerful desktop solutions.
+                            Delivering user-friendly interfaces and robust functionality for seamless productivity and
+                            efficiency</div>
+                    </div>
+                    <div class="tittle">ज्योतिष परामर्श एवं सम्पुर्ण पूजा</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="heading" id="contactme">
+                <h1>सम्पर्क</h1>
+            </div>
+            <div class="contactinfo">
+                <div class="information">
+                    <div class="intro">
+                        <span class="namaskar">नमस्कार ,</span> <span class="Uma"> ज्योतिषी पं. श्री उमाकान्त
+                            शर्मा</span><br><span class="sewa">हात हेराउने, चिना टिप्पन लेख्ने ,शिक्षा ,व्यापार ,विदेश, पारिवारिक समस्या, कालसर्प, 
+                                मांङ्गलिम दोष निवारण,बर्तवन्ध, बिवाहा , घरमा गरिने रुद्री,सत्यनारायण, हवन( होम आदि सम्पुर्ण पूजा)गराउनुका साथै पूजासामग्रि पनि 
+                                पाईन्छ ।।</span>
+                    </div>
+                    <div class="row">
+                        <div class="rowOne">
+                            <i class="fa fa-user " style="font-size:36px;color:rgba(65, 25, 209, 0.726)"></i>
+                            <div class="rowinfo">
+                                <div class="head"> नाम</div>
+                                <div class="subtitle">उमाकान्त शर्मा</div>
+                            </div>
+                        </div>
+                        <div class="rowTwo">
+                            <i class="fa fa-map-marker" style="font-size:36px;color:rgba(39, 5, 161, 0.726)"></i>
+                            <div class="rowinfo">
+                                <div class="head"> स्थाई ठेगाना</div>
+                                <div class="subtitle">फलेवास नगरपालिका,६,शिव मन्दिर,पर्वत</div>
+                            </div>
+
+                        </div>
+                        <div class="rowTwo">
+                            <i class="fa fa-map-marker" style="font-size:36px;color:rgba(39, 5, 161, 0.726)"></i>
+                            <div class="rowinfo">
+                                <div class="head"> अस्थायी ठेगाना</div>
+                                <div class="subtitle">काठमाडौं,पशुपतिनाथ मन्दिर</div>
+                            </div>
+
+                        </div>
+                        <div class="rowThree">
+                            <i class="fa fa-phone" style="font-size:36px;color:rgba(52, 5, 161, 0.726)"></i>
+                            <div class="rowinfo">
+                                <div class="head">सम्पर्क</div>
+                                <a href="tel:9846172134" class="subtitle" id="Email">९८४६१७२१३४</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inputinfo">
+                    <span>Message</span>
+                    <form action="/emailsending" method="get">
+                        <div class="name_email">
+                            <input type="text" name="name" id="name" placeholder="Name" required>
+                            <input type="email" name="email" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="textarea">
+                            <input type="text" name="message" id="message" placeholder="Message">
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Send Message" id="button">
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="Copyright">
+                <p>Copyright &copy; Umakanta Sharma</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
